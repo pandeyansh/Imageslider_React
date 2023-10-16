@@ -1,8 +1,6 @@
-// src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import './Navbar.css'; // Import your styles
-
+import './Nav.css';
 const Nav = () => {
   return (
     <nav className="navbar">
@@ -13,5 +11,4 @@ const Nav = () => {
     </nav>
   );
 }
-
 export default Nav;
